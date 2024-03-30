@@ -1,0 +1,21 @@
+.main {
+    width: 100%;
+}
+.title {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Первый элемент на две колонки */
+    grid-gap: 20px; /* Отступ между элементами */
+    justify-items: center;
+}
+.search {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}

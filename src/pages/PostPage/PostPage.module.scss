@@ -1,0 +1,25 @@
+.PostPage {
+
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    button {
+        font-size: 20px;
+    }
+}
+.info {
+    .title {
+        text-align: center;
+        font-size: 30px;
+        margin: 20px 0
+    }
+    .img {
+        width: 100%;
+    }
+    .text{
+        margin-top: 20px;
+    }
+}
